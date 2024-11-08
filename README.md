@@ -34,5 +34,5 @@ This sample Test Automation only consists of 1 folder : `test`, and have 2 sub-f
    > pageobjects : each file represents individual web pages (including both locators and actions), with exception file 'page.js' as single parent for all other pages
    > testcases   : contains testcases to be executed
    ```
-File `package.json` and `package-lock.json` contains dependecies for the project, which can be initialized using commmand `npm init`.
+File `package.json` and `package-lock.json` contains dependencies for the project, which can be initialized using commmand `npm init`.
 File  `wdio.conf.js` is basic config file for wdio-based automation.
