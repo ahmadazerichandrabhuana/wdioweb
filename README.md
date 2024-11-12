@@ -22,16 +22,24 @@ This is a simple sample of Web Test Automation using WebdriverIO with Allure Rep
 * Run specific test :
   Open file `wdio.conf.js` and update line 24-27 (comment & un-comment) for necessary file to be executed.
 
-## Generate & Open Allure Report
-  
-    allure generate --clean && allure open
+## Open Report
+*  Generate report file and open it :
+
+   ```
+   allure generate --clean && allure open
+   ```
+*  Open report without generating report file :
+
+   ```
+   allure serve
+   ```
    
 
 ## Short Repository Explanation
 
 This sample Test Automation only consists of 1 folder : `test`, and have 2 sub-folders : 
    ```
-   > pageobjects : each file represents individual web pages (including both locators and actions), with exception file 'page.js' as single parent for all other pages
+   > pageobjects : each file represents individual web pages (including locators and actions on each page), with exception file 'page.js' as being the single parent for all other pages
    > testcases   : contains testcases to be executed
    ```
 File `package.json` and `package-lock.json` contains dependencies for the project, which can be initialized using commmand `npm init`.
