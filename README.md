@@ -8,7 +8,7 @@ This is a simple sample of Web Test Automation using WebdriverIO with Allure Rep
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
 2. Install [NodeJS](https://nodejs.org/en/download/prebuilt-installer).
-3. Install Java and update your JAVA_HOME, you can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
+3. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/) and update your JAVA_HOME, you can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
 4. Install [Allure Report](https://allurereport.org/docs/install/).
 5. Download and open this code repository on your local Code Editor and run this commands :
    ```
