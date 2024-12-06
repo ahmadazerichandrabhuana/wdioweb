@@ -30,7 +30,7 @@ This is a simple sample of Web Test Automation using WebdriverIO with Allure Rep
    ```
    allure generate --clean && allure open
    ```
-*  Open report without generating report file :
+*  Open report without generating report file : 
 
    ```
    allure serve
