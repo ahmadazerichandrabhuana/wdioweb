@@ -45,7 +45,7 @@ This is a simple sample of Web Test Automation using WebdriverIO with Allure Rep
 
 ## Short Repository Explanation
 
-This sample Test Automation only consists of 1 folder : `test`, and have 2 sub-folders : 
+This sample Test Automation only consists of 1 folder : `test`, and have 2 sub-folders :
    ```
    > pageobjects : each file represents individual web pages (including locators and actions on each page), with exception file 'page.js' as being the single parent for all other pages
    > testcases   : contains testcases to be executed
